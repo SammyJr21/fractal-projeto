@@ -32,8 +32,8 @@ export default function Home() {
             >
               <img src={beer.image_url} alt="beer" height={80} width={20} />
               <div className="beerText">
-                <span>{beer.name}</span>
-                <p>{beer.tagline}</p>
+                <span className="beerText_span">{beer.name}</span>
+                <p className="beerText_p">{beer.tagline}</p>
               </div>
             </div>
           </Link>
