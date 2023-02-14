@@ -11,15 +11,6 @@
   opacity: 0.8;
 }
 
-span {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-p {
-  font-size: 12px;
-  font-weight: 700;
-}
 .beer:hover {
   opacity: 1;
 }
@@ -30,7 +21,13 @@ p {
   justify-content: space-evenly;
   align-items: flex-end;
 }
-.container {
-  justify-content: flex-end;
-  align-items: center;
+
+.beerText_span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.beerText_p {
+  font-size: 12px;
+  font-weight: 700;
 }
