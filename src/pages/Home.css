@@ -1,0 +1,36 @@
+.beer {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 0.5px inset black;
+  border-radius: 5px;
+  margin-bottom: 0.1rem;
+  opacity: 0.8;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 700;
+}
+.beer:hover {
+  opacity: 1;
+}
+
+.beerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.container {
+  justify-content: flex-end;
+  align-items: center;
+}
